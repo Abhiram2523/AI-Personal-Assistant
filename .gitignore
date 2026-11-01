@@ -1,15 +1,19 @@
-﻿# Environment & Secrets
+# Environment & Secrets
 .env
 Backend/.env
 Frontend/.env
+
 # Dependencies
 venv/
 Backend/venv/
 node_modules/
 Frontend/node_modules/
-# Local Database & Storage
+
+# Local Database & Data files (Backend/storage contains Python source code)
 Backend/data/
-Backend/storage/
+*.index
+*.pkl
+
 # Build outputs
 Frontend/dist/
 __pycache__/

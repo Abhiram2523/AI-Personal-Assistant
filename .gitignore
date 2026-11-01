@@ -1,0 +1,16 @@
+﻿# Environment & Secrets
+.env
+Backend/.env
+Frontend/.env
+# Dependencies
+venv/
+Backend/venv/
+node_modules/
+Frontend/node_modules/
+# Local Database & Storage
+Backend/data/
+Backend/storage/
+# Build outputs
+Frontend/dist/
+__pycache__/
+*.pyc
